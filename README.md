@@ -13,3 +13,23 @@ AutoGen is a framework that enables the development of LLM applications using mu
 - AutoGen provides [enhanced LLM inference](https://microsoft.github.io/autogen/docs/Use-Cases/enhanced_inference#api-unification). It offers utilities like API unification and caching, and advanced usage patterns, such as error handling, multi-config inference, context programming, etc.
 
 AutoGen is powered by collaborative [research studies](https://microsoft.github.io/autogen/docs/Research) from Microsoft, Penn State University, and the University of Washington.
+
+## [Installation](https://microsoft.github.io/autogen/docs/Installation)
+### Option 1. Install and Run AutoGen in Docker
+
+Find detailed instructions for users [here](https://microsoft.github.io/autogen/docs/Installation#option-1-install-and-run-autogen-in-docker), and for developers [here](https://microsoft.github.io/autogen/docs/Contribute#docker-for-development).
+
+### Option 2. Install AutoGen Locally
+
+AutoGen requires **Python version >= 3.8, < 3.13**. It can be installed from pip:
+
+```bash
+pip install pyautogen
+```
+
+Minimal dependencies are installed without extra options. You can install extra options based on the feature you need.
+
+<!-- For example, use the following to install the dependencies needed by the [`blendsearch`](https://microsoft.github.io/FLAML/docs/Use-Cases/Tune-User-Defined-Function#blendsearch-economical-hyperparameter-optimization-with-blended-search-strategy) option.
+```bash
+pip install "pyautogen[blendsearch]"
+``` 
